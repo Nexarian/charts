@@ -827,6 +827,9 @@ priorityClassName: ""
 ## @param secretAnnotations Additional annotations to apply to the secret
 ##
 secretAnnotations: {}
+## @param shareProcessNamespace Whether to share the process namespace in the deployment
+##
+shareProcessNamespace: false
 ## Options for the source type "crd"
 ##
 crd:
